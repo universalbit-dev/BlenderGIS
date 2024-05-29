@@ -23,3 +23,5 @@ Exemple : import vector contour lines, create faces by triangulation and put a t
 ![](https://raw.githubusercontent.com/wiki/domlysz/blenderGIS/Blender28x/gif/bgis_demo_webdata.gif)
 
 **And more :** Manage georeferencing informations of a scene, compute a terrain mesh by Delaunay triangulation, drop objects on a terrain mesh, make terrain analysis using shader nodes, setup new cameras from geotagged photos, setup a camera to render with Blender a new georeferenced raster.
+
+* [SRTM WIKI](https://github.com/domlysz/BlenderGIS/wiki/SRTM)
