@@ -66,7 +66,7 @@ class EPSGIO():
 		url = url.replace("{CRS1}", str(epsg1))
 		url = url.replace("{CRS2}", str(epsg2))
 
-		log.debug(url)
+		log.debug('Request made to EPSG.io service')
 
 		try:
 			rq = Request(url, headers={'User-Agent': USER_AGENT})
@@ -110,7 +110,7 @@ class EPSGIO():
 		result = []
 		for part in parts:
 			url = urlTemplate.replace("{POINTS}", part)
-			log.debug(url)
+			log.debug('Request made to EPSG.io service')
 
 			try:
 				rq = Request(url, headers={'User-Agent': USER_AGENT})
