@@ -72,7 +72,7 @@ class EPSGIO():
 			rq = Request(url, headers={'User-Agent': USER_AGENT})
 			response = urlopen(rq, timeout=REPROJ_TIMEOUT).read().decode('utf8')
 		except (URLError, HTTPError) as err:
-			log.error('Http request fails url:{}, code:{}, error:{}'.format(url, err.code, err.reason))
+			log.error('Http request failed with an error.')
 			raise
 
 		obj = json.loads(response)
